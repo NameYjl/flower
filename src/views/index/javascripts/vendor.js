@@ -1,5 +1,5 @@
 
 
-require('./modules/a')
+//require('./modules/a')
 
 console.log("vendor.js")
