@@ -6,6 +6,7 @@ const gulp = require('gulp')
 const config = require('./config') // 在这里因为取的是index，所以可以省略index
 // 压缩html
 const htmlmin = require('gulp-htmlmin')
+// 热更新服务器
 const connect = require('gulp-connect')
 // 合并文件
 const concat = require('gulp-concat')
@@ -27,7 +28,7 @@ const sass = require('gulp-sass')
 // 处理html，将src中的html文件输出到dist中去
 gulp.task('handle:html', function () {
     return gulp.src('./src/views/*/*.html')
-        // .pipe(htmlmin(config.htmloptions))
+//         .pipe(htmlmin(config.htmloptions))
         .pipe(gulp.dest('./dist'))
 })
 
@@ -55,11 +56,14 @@ gulp.task('handle:css', function () {
         }
     }
     return merge( ...streams )//合并多个文件流
+    // ... 是es6 中的展开运算符 var  a = [1,2,3,4]  var b = [ ...a, 5,6,7] // b: [1,2,3,4,5,6,7]
+    // var a = { x: 1, y: 2 } var b = { z: 3, ...a } // b: { x: 1, y: 2, z: 3 }
 })
 
 // 处理js es6-> es5 合并 压缩
 
 gulp.task('handle:js', function () {
+
     let streams = []
     for (const page in config.jsoptions) {
         //判断如果入口是数组或者是字符串的话就是单出口，否则是多出口
@@ -112,6 +116,7 @@ gulp.task('watch', function () {
     gulp.watch('./src/views/*/*.html', ['handle:html', 'inject', 'reload'])
     gulp.watch('./src/**/*.scss', ['handle:css', 'inject', 'reload'])
     gulp.watch('./src/**/*.js', ['handle:js', 'inject', 'reload'])
+    // 通配符中 * 指的是儿子这一代，** 指的是所有的后代
 })
 
 //创建热更新服务器
@@ -125,5 +130,5 @@ gulp.task("reload", function(){
 		.pipe(connect.reload());
 })
 
-// 默认任务 
+// 默认任务
 gulp.task('default', ['server', 'handle:html', 'handle:css', 'handle:js', 'inject', 'watch'])

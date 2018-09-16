@@ -11,7 +11,7 @@ const config = {
     },
     serveroptions: {//热更新服务
 		root: './dist',
-		port: 8022,
+		port: 8011,
 		livereload: true
 	},
 	pages: [ 'index' , 'list' , 'car' ],

@@ -1,4 +1,33 @@
-h1{
-	line-height: 40px;
-	color: red;
+.index_header{
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f2f2f2;
+    .index_header_nav{
+        width: 1920px;
+        height:34px;
+        margin:0 auto;
+        background: #FFFF00;
+        .index_header_nav1{
+            float: left;
+            width: 350px;
+            height:34px;
+            li a{
+                display: block;
+                text-align: center;
+                line-height: 34px;
+                background: red;
+                color: #737373;
+                width: 180px;
+                height:34px;
+                span{
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    float: left;
+                    background:url(../../img/index_top.jpg) no-repeat;
+                }
+            }
+        }
+    }
 }
