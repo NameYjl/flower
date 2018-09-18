@@ -4,15 +4,10 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<!-- inject:css -->
-   		<!-- endinject -->
+    	<!-- endinject -->
 	</head>
 	<body>
-		<a href="#" target="_blank" id="index_top">
-    		<div style="background:url(../img/index_top.jpg) 50% 0 no-repeat;height:80px;"></div>
- 		</a>
- 		
- 		
- 		<div class="index_header">
+		<div class="index_header">
  			<div class="index_header_nav">
  				<ul class="index_header_nav1">
  					<li><a href="#">
@@ -20,7 +15,7 @@
  						收藏鲜花网(hua.com)
  					</a></li>
  					<li class="hover">
- 						<a href="#">
+ 						<a href="#" class="hover_a">
  							<span></span>
  							关注微信
  						</a>
@@ -30,7 +25,7 @@
  						</div>
  					</li>
  					<li class="hover">
- 						<a href="#">
+ 						<a href="#" class="hover_a">
  							<span></span>
  							花礼网app
  						</a>
@@ -53,16 +48,16 @@
  						订单查询
  					</a></li>
  					<li class="border">|</li>
- 					<li><a href="#">
+ 					<li class="hover"><a href="#" class="hover_a">
  						我的花礼
  					</a></li>
  					<li class="border">|</li>
  					<li class="hover">
- 						<a href="#">
+ 						<a href="#" class="hover_a">
  							客户服务
  							<span class="nav"></span>
  						</a>
- 						<div class="dropdown-menu dropdown-service">
+ 						<div>
 				            <a href="/member/payment/balancefill" target="_blank">在线付款</a>
 				            <a href="/help/" target="_blank">帮助中心</a>
 				            <a href="/help/afterservice.htm" target="_blank">售后服务</a>
@@ -71,12 +66,12 @@
 				        </div>
  					</li>
  					<li class="border">|</li>
- 					<li>
- 						<a href="#">
+ 					<li class="hover">
+ 						<a href="#" class="hover_a">
 	 						<span></span>
 	 						购物车
+	 						<i id="num">(0)</i>
 	 						<span class="nav"></span>
-	 						<span class="nav" id="num">(0)</span>
 	 					</a>
 	 					<!--<div></div>-->
  					</li>
@@ -121,15 +116,42 @@
 		    </div>
 		</header>
 
- 		
- 		
- 		
- 		
- 		
- 		
- 		
- 		
- 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+		<div class="login_banner">
+			<div class="login">
+				<div class="login_table">
+					<ul class="login_register">
+						<li class="active">
+							<a href="#">登陆</a>
+						</li>
+						<li>
+							<a href="#">注册</a>
+						</li>
+					</ul>
+					<a href="#" class="phone">使用手机验证码登陆</a>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<form id="myform" name="myform" action="" method="post">
+			<div class="e_mail">
+				<div></div>
+				<input type="text" />
+			</div>
+			<input type="submit" value=""/>
+		</form>
+
+
+
+
+
+
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<!-- inject:js -->
 		<!-- endinject -->
 	</body>
