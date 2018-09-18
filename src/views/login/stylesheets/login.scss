@@ -1,8 +1,15 @@
 
+.logo h2{
+    width: 104px;
+    height: 37px;
+    float: left;
+    margin-top: 14px;
+}
+
 .login_banner{
     height:488px;
     width: 100%;
-    background:#ffd7c4 url(../img/login_banner.jpg) 50% 0 no-repeat;
+    background:#ffd7c4 url(../../img/login_banner.jpg) 50% 0 no-repeat;
     .login{
         width: 990px;
         height: 448px;
@@ -10,11 +17,13 @@
         overflow: hidden;
         .login_table{
             box-sizing: content-box;
+            position: relative;
             width: 380px;
             height: 368px;
             padding: 20px;
             margin:40px 0 0 570px;
             background: #fff;
+            a:hover{color: #FF6A00;text-decoration:underline;}
             ul{
                 width:380px;
                 height: 42px;
@@ -30,7 +39,7 @@
                         font-size: 16px;
                     }
                     &:hover a{
-                        color:#FF6A00;
+                        text-decoration: none;
                     }
                 }
                 .active{
@@ -44,8 +53,126 @@
             //手机验证登录
             .phone{
                 float: right;
-                margin-right: 38px;
+                margin:10px 38px;
                 color:#FF6A00;
+            }
+            i{
+                display: block;
+                clear: both;
+            }
+            .clear1,.clear2{
+                display: none;
+                clear:both;
+                line-height: 18px;
+                margin-bottom:5px;
+                height: 24px;
+                border:1px solid #feb98a;
+                padding: 0 12px;
+                font-size: 12px;
+                background:#fbf0e8 ;
+            }
+            //用户名
+            .hide{
+                display: none;
+            }
+            .tologin,.tologin2{
+                position: absolute;
+                width: 304px;
+//              height: 178px;
+                margin:0 38px;
+//              background: #D9D9D9;
+                overflow: hidden;
+                .pname,.pwd,.rand{
+                    height:40px;
+                    margin-bottom:10px;
+                    div{float: left;}
+                    span{
+                        display: block;
+                        width:37px;
+                        height: 40px;
+                        padding:10px;
+                        border:1px solid #d2d2d2;
+                        border-right:none;
+                        background:#eee url(../../img/common_z.png) -327px -307px no-repeat;
+                    }
+                    input{
+                        width: 267px;
+                        height: 40px;
+                        padding: 10px;
+                        border:1px solid #d2d2d2;
+                    }
+                }
+                .pwd span{background-position: -301px -307px;}
+                .msg{
+                    input{width: 145px;background: #eee;}
+                    button{
+                        float: left;
+                        width:115px;
+                        height: 40px;
+                        margin-left: 7px;
+                        background:#ffad0d;
+                        border:0;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+                .rand{
+                    display: flex;
+                    align-items: center;
+                    input{
+                        width: 110px;
+                    }
+                    span{
+                        width: 80px;
+                        height: 20px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 5px;
+                        background:#ccc;
+                        float: left;
+                        margin:0 10px;
+                        color:#fff;
+                        padding:0;
+                        text-align: center;
+                    }
+                    a{
+                        color: #FF6A00;
+                    }
+                }
+                
+                //忘记密码
+                .forget a{
+                    float: right;
+                    margin-bottom:10px;
+                    color: #FF6A00;
+                }
+                
+                //登陆按钮
+                .go{
+                    width: 100%;
+                    height: 40px;
+                    background:rgba(255,106,0,0.7);
+                    padding:10px 16px;
+                    border:1px solid transparent;
+                    border-radius: 4px;
+                    font-size: 18px;
+                    color: #fff;
+                }
+                
+                //其他登陆方式
+                .others{
+                    background: #FFFF00;
+                    margin-top:10px;
+                    a{
+                        float: left;
+                       font-size: 12px; 
+                    }
+                    span{
+                        float: left;
+                        font-size: 12px;
+                        margin:0 10px;
+                    }
+                }
             }
         }
     }

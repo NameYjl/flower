@@ -4,10 +4,271 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<!-- inject:css -->
-   		<!-- endinject -->
+    	<!-- endinject -->
 	</head>
 	<body>
+		<div class="index_header">
+ 			<div class="index_header_nav">
+ 				<ul class="index_header_nav1">
+ 					<li><a href="#">
+ 						<span class=""></span>
+ 						收藏鲜花网(hua.com)
+ 					</a></li>
+ 					<li class="hover">
+ 						<a href="#" class="hover_a">
+ 							<span></span>
+ 							关注微信
+ 						</a>
+ 						<div>
+ 							<img src="../img/app.jpg" height="124" width="124">
+           					<p>扫码关注<br>回复"礼物" 更多惊喜！</p>
+ 						</div>
+ 					</li>
+ 					<li class="hover">
+ 						<a href="#" class="hover_a">
+ 							<span></span>
+ 							花礼网app
+ 						</a>
+ 						<div>
+				            <img src="../img/app.jpg" height="124" width="124">
+				            <p>新人专享100元APP礼包</p>
+				        </div>
+				    </li>
+ 				</ul>
+ 				
+ 				<ul class="index_header_nav2">
+ 					<li><a href="../login/login.html">
+ 						您好，请登录
+ 					</a></li>
+ 					<li><a href="#">
+ 						注册
+ 					</a></li>
+ 					<li class="border">|</li>
+ 					<li><a href="#">
+ 						订单查询
+ 					</a></li>
+ 					<li class="border">|</li>
+ 					<li class="hover"><a href="#" class="hover_a">
+ 						我的花礼
+ 					</a></li>
+ 					<li class="border">|</li>
+ 					<li class="hover">
+ 						<a href="#" class="hover_a">
+ 							客户服务
+ 							<span class="nav"></span>
+ 						</a>
+ 						<div>
+				            <a href="/member/payment/balancefill" target="_blank">在线付款</a>
+				            <a href="/help/" target="_blank">帮助中心</a>
+				            <a href="/help/afterservice.htm" target="_blank">售后服务</a>
+				            <a href="/help/sendRange.htm" target="_blank">配送范围</a>
+				            <a href="/chat/" target="_blank">留言反馈</a>
+				        </div>
+ 					</li>
+ 					<li class="border">|</li>
+ 					<li class="hover">
+ 						<a href="#" class="hover_a">
+	 						<span></span>
+	 						购物车
+	 						<i id="num">(0)</i>
+	 						<span class="nav"></span>
+	 					</a>
+	 					<!--<div></div>-->
+ 					</li>
+ 					<li class="border">|</li>
+ 					<li>
+ 						中国鲜花礼品网:中国鲜花网领先品牌
+ 					</li>
+ 				</ul>
+ 			</div> 
+ 		</div> 
+ 		
+ 		<header>
+		    <div class="logo">
+		    	<h1>
+			    	<a href="../index/index.html"></a>
+			    </h1>
+			 	<i class="border"></i>
+			    <h2>欢迎注册</h2>
+		    </div>
+		    
+		    
+		    <!-- 搜索 -->
+		    <div class="index_search">
+		    	<form method="get">
+			        <div>
+			          	<input type="text" name="keyword" class="search" placeholder="商品关键词">
+			          	<span class="search_btn">
+			                <button id="go" type="button" >搜索</button>
+			            </span>
+			        </div>
+			    </form>
+			    
+		    </div>
+		    
+		    <!--客服-->
+		    <div class="service">
+		       	<span class="phone"></span>400-889-8188
+		     	<a target="_blank" href="javascript:;"><span></span>在线客服</a>
+		    </div>
+		</header>
+
+
+
+
+
+		<div class="login_banner">
+			<div class="login">
+				<div class="login_table">
+					<ul class="login_register">
+						<li>
+							<a href="../login/login.html">登录</a>
+						</li>
+						<li class="active">
+							<a href="#">注册</a>
+						</li>
+					</ul>
+					<a href="#" class="phone">使用手机号码注册</a>
+					
+					<i></i>
+					
+					<form id="myform_e" name="myform_e" action="../login/login.html" method="get">
+						
+						
+						<!--邮箱注册-->
+						<div class="tologin" id="reg_e">
+							<i class="clear1"></i>
+							<div class="pname">
+								<input id="pname_e" name="pname_e" type="text" placeholder="请填写您的E-mail地址"/>
+							</div>
+							<div class="pwd">
+								<input id="pwd_e" name="pwd_e" type="text" placeholder="密码"/>
+							</div>
+							
+							<div class="re_pwd">
+								<input id="re_Pwd_e" type="text" placeholder="再次输入密码"/>
+							</div>
+							
+							<!--验证码-->
+							<div class="rand">
+								<input type="text" placeholder="验证码" id="yzm_e" />
+								<a href="#"><span class="yzm yzm_e"></span></a>
+								<a href="#" class="change">看不清,换一张</a>
+							</div>
+							
+							<input type="submit" class="go go1" value="立即注册"><!--立即注册</button>-->
+						</div>
+					
+					</form>
+					
+					<form id="myform_p" name="myform_p" action="../login/login.html" method="get">
+					
+						<!--手机号注册-->
+						<div class="tologin2 hide" id="reg_p">
+							
+							<i class="clear2"><span></span></i>
+							
+							<div class="pname">
+								<input id="pname_p" type="text" placeholder="您的手机号码"/>
+							</div>
+							<div class="pwd">
+								<input id="pwd_p" type="text" placeholder="请输入密码"/>
+							</div>
+							
+							<!--验证码-->
+							<div class="rand">
+								<input type="text" placeholder="验证码"/  id="yzm_p">
+								<a href="#"><span class="yzm yzm_p"></span></a>
+								<a href="#" class="change">看不清,换一张</a>
+							</div>
+							
+							<div class="pwd msg">
+								<div><input type="text" placeholder="短信验证码"/ disabled="disabled"></div>
+								<div><button type="button">获取验证码</button></div>
+							</div>
+							
+							<input type="submit" class="go go1" value="立即注册">
+						</div>
+						
+					</form>
+					
+				</div>
+			</div>
+		</div>
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--footer-->
+		<footer>
+			<div class="footer_nav">
+				<a href="#">首页</a>
+				<span>|</span>
+				<a href="#">关于我们</a>
+				<span>|</span>
+				<a href="#">媒体报道</a>
+				<span>|</span>
+				<a href="#">联系方式</a>
+				<span>|</span>
+				<a href="#">企业团购</a>
+				<span>|</span>
+				<a href="#">花店入驻</a>
+				<span>|</span>
+				<a href="#">友情链接</a>
+				<span>|</span>
+				<a href="#">在线补款</a>
+				<span>|</span>
+				<a href="#">为什么选择中国鲜花礼品网</a>
+			</div>
+			
+			
+			<div class="footer_logo">
+				<a href="#"><img src="../../img/footer_logo1.png" height="40"/></a>
+				<a href="#"><img src="../../img/footer_logo2.gif" /></a>
+				<a href="#"><img src="../../img/footer_logo3.gif" /></a>
+				<a href="#"><img src="../../img/footer_logo4.png" /></a>
+				<a href="#"><img src="../../img/footer_logo5.gif" /></a>
+				<a href="#"><img src="../../img/footer_logo6.jpg" /></a>
+				<a href="#"><img src="../../img/footer_logo7.jpg" /></a>
+				<a href="#"><img src="../../img/footer_logo8.jpg" /></a>
+				<a href="#"><img src="../../img/footer_logo9.jpg" /></a>
+			</div>
+			
+			<p>
+				<a href="#" rel="nofollow" target="_blank" title="中国花卉协会会员">中国花卉协会会员</a> 
+				<a href="#" rel="nofollow" target="_blank">中国电子商务协会会员</a> 
+				ICP经营许可证：
+				<a href="#" rel="nofollow" target="_blank">粤B2-20050744</a> 
+				<b>|</b> 
+				<a href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank">粤ICP备09171662号</a> 
+				<span class="ico beian"></span>
+				粤公网安备44030502000373号 Copyright © 2005-2018
+			</p>
+	        <p> 
+	        	<a href="../index/index.html">www.hua.com</a>
+	        	<span> 深圳市百易信息技术有限公司</span> 
+	        </p>
+
+		</footer>
+		
+		
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<!-- inject:js -->
-   		<!-- endinject -->
+		<!-- endinject -->
 	</body>
 </html>
