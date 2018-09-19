@@ -14,19 +14,34 @@ const config = {
 		port: 8011,
 		livereload: true
 	},
-	pages: [ 'index' , 'list' , 'car' ],
+	pages: [ 'index' , 'list' , 'car','login','register' ],
 	cssoptions: { //css配置
 		'index': { //首页的配置
 			'common':[
 				'./src/stylesheets/reset.scss',
 				'./src/views/index/stylesheets/common/*.scss'
 			],
-			'index': './src/views/index/stylesheets/index/*scss'
+			'index': [
+				'./src/views/index/stylesheets/index/*.scss',
+				'./src/stylesheets/swiper.min.scss'
+			]
 		},
 		'list': {
 			'list':[
 				'./src/stylesheets/reset.scss',
 				'./src/views/list/*/*.scss'
+			]
+		},
+		'login': {
+			'login':[
+				'./src/stylesheets/reset.scss',
+				'./src/views/login/*/*.scss'
+			]
+		},
+		'register': {
+			'register':[
+				'./src/stylesheets/reset.scss',
+				'./src/views/register/*/*.scss'
 			]
 		}
 	},
@@ -35,7 +50,9 @@ const config = {
 			index: './src/views/index/javascripts/index.js',
 			vendor: './src/views/index/javascripts/vendor.js'
 		},
-		list: './src/views/list/javascripts/list.js'
+		list: './src/views/list/javascripts/list.js',
+		login: './src/views/login/javascripts/login.js',
+		register: './src/views/register/javascripts/register.js'
 	}
 }
 

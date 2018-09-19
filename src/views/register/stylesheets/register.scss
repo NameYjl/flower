@@ -1,0 +1,154 @@
+
+.logo h2{
+    width: 104px;
+    height: 37px;
+    float: left;
+    margin-top: 14px;
+}
+
+.login_banner{
+    height:488px;
+    width: 100%;
+    background:#ffd7c4 url(../../img/login_banner.jpg) 50% 0 no-repeat;
+    .login{
+        width: 990px;
+        height: 448px;
+        margin: 0 auto;
+        overflow: hidden;
+        .login_table{
+            position: relative;
+            box-sizing: content-box;
+            width: 380px;
+            height: 368px;
+            padding: 20px;
+            margin:40px 0 0 570px;
+            background: #fff;
+            a:hover{color: #FF6A00;text-decoration:underline;}
+            ul{
+                width:380px;
+                height: 42px;
+                border-bottom:2px solid #d9d9d9;
+                margin-bottom: 15px;
+                li{
+                    float: left;
+                    width: 102px;
+                    height: 42px;
+                    text-align: center;
+                    line-height: 42px;
+                    a{
+                        font-size: 16px;
+                    }
+                    &:hover a{
+                        text-decoration: none;
+                    }
+                }
+                .active{
+                    a{
+                        color: #FF6A00;
+                    }
+                    border-bottom: 2px solid #FF6A00;
+                }
+            }
+            
+            //手机验证登录
+            .phone{
+                float: right;
+                margin:10px 38px;
+                color:#FF6A00;
+            }
+            i{
+                display: block;
+                clear: both;
+            }
+            .clear1,.clear2{
+                display: none;
+                clear:both;
+                line-height: 18px;
+                margin-bottom:5px;
+                height: 24px;
+                border:1px solid #feb98a;
+                padding: 0 12px;
+                font-size: 12px;
+                background:#fbf0e8 ;
+            }
+            
+            .hide{display: none;}
+            //用户名
+            .tologin,.tologin2{
+                position: absolute;
+                width: 304px;
+//              height: 178px;
+                margin:0 38px;
+                background: #fff;
+                overflow: hidden;
+                .pname,.pwd,.re_pwd,.rand{
+                    height:40px;
+                    margin-bottom:10px;
+//                  background: #eee;
+                    input{
+                        width: 100%;
+                        height: 40px;
+                        padding: 10px;
+                        border:1px solid #d2d2d2;
+                    }
+                }
+
+//              .pwd span{background-position: -301px -307px;}
+                .msg{
+                    input{float:left;width: 182px;background: #eee;}
+                    button{
+                        float: left;
+                        width:115px;
+                        height: 40px;
+                        margin-left: 7px;
+                        background:#ffad0d;
+                        border:0;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+                .rand{
+                    display: flex;
+                    align-items: center;
+                    input{
+                        width: 110px;
+                    }
+                    span{
+                        display: block;
+                        text-align: center;
+                        width: 80px;
+                        height: 20px;
+                        font-size: 14px;
+                        text-align: center;
+                        line-height: 20px;
+                        letter-spacing: 5px;
+                        background:#ccc;
+                        float: left;
+                        margin:0 10px;
+                        color:#fff;
+                    }
+                    a{
+                        color: #FF6A00;
+                    }
+                }
+                
+                //提交按钮
+                .go{
+                    width: 100%;
+                    height: 40px;
+                    background: #FF6A00;
+                    padding:10px 16px;
+                    border:1px solid transparent;
+                    border-radius: 4px;
+                    font-size: 18px;
+                    color: #fff;
+                    cursor: pointer;
+                    margin-top:20px;
+                    &:hover{
+                        background: #FFaa00;
+                    }
+                }
+            }
+        }
+    }
+}
