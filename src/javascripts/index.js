@@ -1,7 +1,7 @@
 
 
 const index = {
-	setCookie: function( key , value , day ){
+			setCookie: function( key , value , day ){
 				if( day ){
 					var now = new Date() ;
 					now.setDate( now.getDate() + day ) ;
@@ -32,7 +32,19 @@ const index = {
 
 			//删除cookie    将key的值设置为""
 			removeCookie: function( key ){
-				setCookie( key , "" );
+				index.setCookie( key , "" );
+			},
+			
+			rand: function( min,max ){
+				return Math.round( Math.random()*(max-min)+min );
+			},
+			
+			getNum: function (){
+				var str = "";
+				for( var i=0 ; i<4 ; i++ ){
+					str += index.rand( 0,9 );
+				}
+				$('.yzm').html(str)
 			}
 			
 }

@@ -1,12 +1,12 @@
 
-const cookie = require('../../../javascripts/index');
-var arr = [];
-getNum();
+const index = require('../../../javascripts/index');
+
+index.getNum();
 $('.yzm').click(function(){
-	getNum();
+	index.getNum();
 })
 $('.change').click(function(){
-	getNum();
+	index.getNum();
 })
 //转换注册模式    
 var flag1 = true;
@@ -23,12 +23,13 @@ $('.phone').click(function(){
 		$('#reg_e').removeClass('hide')
 		flag1 = !flag1;
 	}
-	getNum();  //过去随机验证码
-	console.log(cookie.getCookie("jsonlist"))
+	index.getNum();  //过去随机验证码
+	console.log(index.getCookie("user"))
 })
 
+
+var arr = [];
 $('#myform_e').submit(function(){
-	
 	//验证邮箱
 	let reg1 = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/;
 	if( !reg1.test($('#pname_e').val())){
@@ -66,7 +67,7 @@ $('#myform_e').submit(function(){
 		"userpwd":strPwd
 	} )
 	//将数组存入到cookie中
-	cookie.setCookie( 'user', JSON.stringify( arr ) , 1 );
+	index.setCookie( 'user', JSON.stringify( arr ) , 1 );
 	
 	return true;
 })
@@ -110,28 +111,3 @@ $('#myform_p').submit(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function rand( min,max ){
-	return Math.round( Math.random()*(max-min)+min );
-}
-
-function getNum(){
-	var str = "";
-	for( var i=0 ; i<4 ; i++ ){
-		str += rand( 0,9 );
-	}
-	$('.yzm').html(str)
-}
