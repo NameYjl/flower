@@ -45,10 +45,11 @@ const index = {
 					str += index.rand( 0,9 );
 				}
 				$('.yzm').html(str)
-			}
+			},
+			
 			
 }
 
-
+ 
 
 module.exports = index;
