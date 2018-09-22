@@ -17,10 +17,6 @@ const config = {
 	pages: [ 'index' , 'list' , 'car','login','register' ],
 	cssoptions: { //css配置
 		'index': { //首页的配置
-//			'common':[
-//				'./src/stylesheets/reset.scss',
-//				'./src/views/index/stylesheets/common/*.scss'
-//			],
 			'index': [
 				'./src/stylesheets/reset.scss',
 				'./src/views/index/stylesheets/index/*.scss',

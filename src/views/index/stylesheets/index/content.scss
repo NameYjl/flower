@@ -1,0 +1,121 @@
+
+
+/*服务*/
+.main{
+	width: 1200px;
+	min-height: 100px;
+	margin:0 auto;
+	/*background: skyblue;*/ 
+	overflow: hidden;
+	margin-top:30px;
+	.con_server{
+		width: 1200px;
+		height:40px;
+		margin-bottom: 50px;
+		ul{
+			width: 100%;
+			height: 40px;
+			li{
+			    display: block;
+			    float: left;
+			    height: 40px;
+			    margin:0 48px 0 10px;
+			    &:last-child{margin:0 0 0 10px}
+				a{
+					span{
+						display: inline-block;
+						float: left;
+						vertical-align: middle;
+						width: 40px;
+						height: 40px;
+					}
+				}
+				h4{
+					font-size: 16px;
+				    margin: 0 0 5px 50px;
+				    color: #4d4d4d;
+				    font-weight: 500px;
+				}
+				p{
+					font-size: 12px;
+				    margin-bottom: 0;
+				    margin:0 0 10px 50px;
+				    color: #999999;
+				}
+			}
+		}
+	}
+
+
+
+	/*限时推荐*/
+	.time_limit{
+		height: 200px;
+		margin-bottom: 40px;
+		.title{
+		    font-size: 24px;
+		    float: left;
+		    width: 232px;
+		    height: 200px;
+		    text-align: center;
+		    color: #fff;
+		    background-color: #aacc03;
+		    span{
+	    	    display: inline-block;
+				margin: 40px auto 25px;	
+				width: 64px;
+	    		height: 64px;
+				margin: 40px 84px 25px;
+		    }
+		}
+		ul{
+			float: left;
+			li{
+			    position: relative;
+			    z-index: 9;
+			    float: left;
+			    overflow: hidden;
+			    width: 240px;
+			    height: 200px;
+			    margin-right: -1px;
+			    border: 1px solid #e5e5e5;
+			    background-color: #fff;
+			    &:hover{border: 1px solid #ccc;}
+			}
+		}
+		.strong_recommend{
+		    float: left;
+		    overflow: hidden;
+		    width: 249px;
+		    height: 200px;
+		    margin-left: 1px;
+		    text-align: center;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
