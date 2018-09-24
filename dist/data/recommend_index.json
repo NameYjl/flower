@@ -1,0 +1,125 @@
+{
+    "code": 1,
+    "error": null,
+    "data": [
+        {
+            "flower_id": 1,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "浪漫唯美 女神挚爱",
+            "flower_category": "鲜花-鲜花礼盒",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012009.jpg"
+        },
+        {
+            "flower_id": 2,
+            "flower_name": "真爱如初----雪山玫瑰11枝、深紫色勿忘我0.3扎",
+            "flower_category": "鲜花-鲜花礼盒",//类别
+            "flower_material": "高档礼盒装鲜花:雪山玫瑰11枝、深紫色勿忘我0.3扎",//材料
+            "flower_package": "素染纸-浅灰2张，雪梨纸0.5张，银灰色logo缎带1米，魔力铁山灰盒(小)",//包装
+            "flower_talking": "用一袭白裙装扮你那无瑕的身姿，向一抹白云倾诉对你的思念，用一捧鲜花证明我不变的心。",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "限送100多个主要城市的市区及近郊：北京,上海,深圳,广州,成都,武汉,南京,杭州,苏州,天津,西安,长沙,东莞,厦门,佛山,沈阳,合肥,重庆,大连,郑州,青岛,太原,无锡,石家庄,济南,宁波,哈尔滨,乌鲁木齐,贵阳,昆明,福州,长春,南昌,兰州,珠海,南宁,中山,常州,金华,邯郸,泉州,海口,嘉兴,南通,呼和浩特,廊坊,唐山,温州,徐州,绵阳,烟台,襄阳,保定,潍坊,镇江,衡阳,包头,赣州,扬州,清远,荆州,莆田,汉中,洛阳,湛江,九江,鞍山,大庆,秦皇岛,张家口,桂林,吉林,淄博,蚌埠,柳州,遵义,邢台,宜春,漳州,三亚,宜宾,东营,临沂,德州,开封,大同,龙岩,齐齐哈尔,连云港,新乡,黄冈,焦作,十堰,驻马店,信阳,牡丹江,黄石,宝鸡,丹东,阜阳,北海,聊城,锦州,许昌,内江,萍乡,安庆,承德,商丘,盘锦,乐山,沧州,河源,营口,平顶山,临汾,韶关,日照,新余,晋城,松原,淮北,淮南,晋中,潮州,滨州,自贡,六安,株州,濮阳,常熟,晋江,顺德,江阴,吴江,昆山,义乌,惠阳,银川,温江,燕郊,新都,涿州,南沙,宜兴,即墨,海安县,都江堰,增城,仙桃,菏泽",
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "http://img01.hua.com/uploadpic/newpic/9010947.jpg_220x240.jpg"
+        },
+        {
+            "flower_id": 3,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "高档礼盒装鲜花:雪山玫瑰11枝、深紫色勿忘我0.3扎",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012243.jpg"
+        },
+        {
+            "flower_id": 4,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012078.jpg"
+        },
+        {
+            "flower_id": 5,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9010966.jpg"
+        },
+        {
+            "flower_id": 6,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012177.jpg"
+        },
+        {
+            "flower_id": 7,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012167.jpg"
+        },
+        {
+            "flower_id": 8,
+            "flower_name": "忘情巴黎----33枝红玫瑰浪漫唯美 女神挚爱",
+            "flower_description": "红富士苹果，吃了之后特别的好，就是不能多吃，吃得太多容易引发肚子胀。",
+            "flower_category": "鲜花",//类别
+            "flower_material": "33支红玫瑰,石竹梅围绕",//材料
+            "flower_package": "黑色条纹纸，红色缎带花结",//包装
+            "flower_talking": "只想和你忘掉一切烦恼，尽情沉醉在最浪漫的气氛中",//花语
+            "flower_gift": "下单填写留言，即免费赠送精美贺卡！",//附送
+            "flower_send": "全国 （可配送至全国2000多城市，市区免配送费）",//配送
+            "flower_price1": "383",
+            "flower_price1": "298",
+            "flower_price1": "292",
+            "flower_src": "//img01.hua.com/uploadpic/newpic/9012055.jpg"
+        }
+    ]
+}
