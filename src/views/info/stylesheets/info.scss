@@ -1,0 +1,176 @@
+nav{
+    height: 40px;
+    margin-bottom: 10px;
+    min-width: 1200px;
+    background-color: #fe7a24;
+    .all:hover .commodity{
+        display: block;
+    }
+    .commodity{
+        display: none;
+        border:2px solid #FF6A00;
+    }
+}
+.flowers{ 
+    li a{
+        color: #fff!important ;
+        &:hover{
+            color: #FFF;
+            background: rgba(255,255,255,.1);
+        }
+    }
+    
+}
+
+
+
+
+.main{
+    width: 1200px;
+    margin:0 auto;
+    .main_top{
+        margin-bottom: 10px;
+        a{
+            color: #737373;
+            font-size: 12px;
+            &:first-child{color:#000;font-weight: bold; font-size: 14px;}
+        }
+        span{font-size:12px; color: #FF6600!important;}
+    }
+    
+    
+    .product-wrapper{
+        margin-bottom: 40px;
+        padding: 30px;
+        border: 1px solid #d9d9d9;
+        overflow: hidden;
+        .product_l{
+            position: relative;
+            float: left;
+            width: 520px;
+            .pro_preview{
+                position: relative;
+                width: 450px;
+                margin: 0 auto;
+                .pro_big{
+                    position: relative;
+                    overflow: hidden;
+                    width: 430px;
+                    height: 469px;
+                    margin: 0 auto 20px;
+                    img{
+                        cursor: pointer;
+                        width: 100%;
+                    }
+                }
+                .pro_small{
+                    width: 430px;
+                    margin: 0 auto;
+                    text-align: center;
+                    img{
+                        display: inline-block;
+                        width: 68px;
+                        height: 68px;
+                        margin: 0 12px;
+                        padding: 1px;
+                        border: 1px solid #d9d9d9;
+                        cursor: pointer;
+                    }
+                    .current{
+                        padding: 0;
+                        border-width: 2px;
+                        border-color: #fe6600;
+                    }
+                }
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .product_r{
+            float: right;
+            width: 560px;
+            .title{
+                font-size: 16px;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #d9d9d9;
+                h3{
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 0 0 6px 0;
+                    padding: 0;
+                    color: #4d4d4d;
+                }
+                p{
+                    margin: 0;
+                    color: #ff6a00;
+                }
+            }
+            .attribute{
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #d9d9d9;
+                dl{
+                    font-size: 12px;
+                    margin: 12px 0;
+                    dt{float: left;}
+                    dd{margin-left: 70px;}
+                }
+            }
+            
+            .price{
+                position: relative;
+                display: inline-block;
+                margin-bottom: 8px;
+                padding: 10px 16px 5px;
+                cursor: pointer;
+                border: 2px solid #d9d9d9;
+                .price_original{
+                    font-size: 12px;
+                    margin-bottom: -2px;
+                    line-height: 18px;
+                    text-decoration: line-through;
+                }
+                strong{color: #FF0000;}
+            }
+            
+            
+            .btn_buy{
+                margin-top: 10px;
+                margin-bottom: 20px;
+                .btn_lg{
+                    margin-right: 15px;
+                    padding: 8px 25px;
+                    color: #ffffff;
+                    background-color: #ff6a00;
+                    border-color: #ff6a00;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-weight: normal;
+                    text-align: center;
+                    vertical-align: middle;
+                    touch-action: manipulation;
+                    cursor: pointer;
+                    background-image: none;
+                    border: 1px solid transparent;
+                    white-space: nowrap;
+                    span{
+                        margin-top: -3px;
+                        margin-right: 10px;
+                        background-image: url(../../img/common_z.png) -306px -284px no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
